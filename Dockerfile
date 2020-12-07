@@ -4,8 +4,7 @@ RUN cd /opt && \
 
 WORKDIR /opt/open-cryptofolio
 
-RUN npm install 
-#RUN npm run build
+RUN npm install && npm run build
 
 CMD ["node", "run", "build" ]
     
