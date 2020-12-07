@@ -6,7 +6,7 @@ WORKDIR /opt/open-cryptofolio
 
 RUN npm install && npm run build
 
-CMD ["node", "run", "build" ]
+CMD ["node", "run", "start" ]
     
 #Http Interface
 EXPOSE 3000
